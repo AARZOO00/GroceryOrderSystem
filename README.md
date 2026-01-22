@@ -63,6 +63,58 @@ The following API endpoints are available:
             "name": "Banana",
             "price": 0.75,
             "stock": 150
+          },
+          
+          {
+            "id": 3,
+            "name": "Mango",
+            "price": 1.5,
+            "stock": 100
+          },
+          {
+            "id": 4,
+            "name": "Cucumber",
+            "price": 2.75,
+            "stock": 150
+          },
+          
+          {
+            "id": 5,
+            "name": "Date",
+            "price": 3.5,
+            "stock": 200
+          },
+          {
+            "id": 6,
+            "name": "Orange",
+            "price": 1.5,
+            "stock": 300
+          },
+          
+          {
+            "id": 7,
+            "name": "Pineapple",
+            "price": 1.5,
+            "stock": 320
+          },
+          {
+            "id": 8,
+            "name": "Grapes",
+            "price": 2.75,
+            "stock": 200
+          },
+          
+          {
+            "id": 9,
+            "name": "Strawberry",
+            "price": 4.5,
+            "stock": 180
+          },
+          {
+            "id": 10,
+            "name": "Blueberry",
+            "price": 5.5,
+            "stock": 200
           }
         ]
         ```

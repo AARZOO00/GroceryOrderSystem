@@ -51,7 +51,15 @@ void SeedData(AppDbContext context)
     {
         context.Products.AddRange(
             new Product { Name = "Apple", Price = 1.50m, Stock = 100 },
-            new Product { Name = "Banana", Price = 0.75m, Stock = 150 }
+            new Product { Name = "Banana", Price = 1.75m, Stock = 150 },
+            new Product { Name = "Mango", Price = 1.50m, Stock = 100 },
+            new Product { Name = "Cucumber", Price = 2.75m, Stock = 150 },
+            new Product { Name = "Date", Price = 3.50m, Stock = 200 },
+            new Product { Name = "Orange", Price = 1.50m, Stock = 300},
+            new Product { Name = "Pineapple", Price = 1.50m, Stock = 320 },
+            new Product { Name = "Grapes", Price = 2.75m, Stock = 200},
+            new Product { Name = "Strawberry", Price = 4.50m, Stock = 180},
+            new Product { Name = "Blueberry", Price = 5.50m, Stock = 200}
         );
         context.SaveChanges();
     }
