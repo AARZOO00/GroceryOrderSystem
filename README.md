@@ -18,27 +18,27 @@ The project follows a standard .NET Web API structure, separating concerns into 
 
 ```
 /
-├── Controllers/        # Handles incoming HTTP requests and API endpoints.
+├── Controllers/        
 │   ├── ProductsController.cs
 │   └── OrdersController.cs
-├── Data/               # Contains the Entity Framework DbContext.
+├── Data/              
 │   └── AppDbContext.cs
-├── Migrations/         # EF Core database migration files.
-├── Models/             # Domain models and DTOs.
+├── Migrations/        
+├── Models/            
 │   ├── Product.cs
 │   ├── Order.cs
 │   └── PlaceOrderRequest.cs
-├── Repositories/       # Data access layer for interacting with the database.
+├── Repositories/      
 │   ├── IProductRepository.cs
 │   ├── ProductRepository.cs
 │   ├── IOrderRepository.cs
 │   └── OrderRepository.cs
-├── Services/           # Contains the core business logic.
+├── Services/          
 │   ├── IOrderService.cs
 │   └── OrderService.cs
-├── appsettings.json    # Application configuration.
-├── Program.cs          # Application entry point and service configuration.
-└── GroceryOrderSystem.csproj # Project file.
+├── appsettings.json   
+├── Program.cs         
+└── GroceryOrderSystem.csproj 
 ```
 
 ## API Endpoints
